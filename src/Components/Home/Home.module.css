@@ -1,0 +1,44 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 893px;
+}
+
+.foto{
+  width: 1000px;
+}
+
+.tr{
+    font-size: 3.2em;
+      line-height: 1.1;
+      font-family: "Archivo", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: italic;
+      font-variation-settings:
+        "wdth" 100; 
+    color: #242424;;
+  }
+
+.tr strong{
+    color: rgb(61, 108, 178);
+}
+  .parrafo{
+    max-width: 1000px;
+    color: #242424;;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    text-wrap: pretty;
+  }
+
+  @media (max-width:1150px){
+
+    .foto{
+      width: 500px;
+    }
+}

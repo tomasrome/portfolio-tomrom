@@ -1,0 +1,42 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.image{
+    width: 80px;
+  }
+
+.icon{
+    filter: drop-shadow(0 0 2em );
+    scale: 1.1;
+    transition: ease .2s;
+  }
+
+.tooltip{
+    
+    position: absolute;   
+    font-size:  16px;
+    font-weight: 600;
+    bottom: 80px;
+    border: 2px solid;
+    padding: 5px 20px;
+    border-radius:10px;
+    opacity: 0;
+    transition: opacity ease .2s, transform ease .4s;
+    transition-delay: .1s;
+  }
+
+  .container:hover .tooltip{
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+
+  .image:hover{
+    filter: drop-shadow(0 0 2em );
+    scale: 1.1;
+    transition: ease .2s;
+}
