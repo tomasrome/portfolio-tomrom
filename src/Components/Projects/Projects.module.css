@@ -74,10 +74,12 @@
     border-radius: 10%;
     position: absolute;
     opacity: 0;
-    transition: ease 1s;
+    transition: ease .5s;
+    cursor: pointer;
 }
 
 .tomi:hover{
+    fill: #181a1b;
     opacity: 1;
 }
 
@@ -86,14 +88,16 @@
 }
 
 .language li{
+    font-size: 14px;
     padding: 5px;
     transition: ease .2s;
     cursor: default;
+    background-color: #f583207f;
+    border-radius: 5px;
 }
 
 .language li:hover{
-    text-decoration: underline #f58220;
-    text-decoration-thickness: 3px ;
+    background-color: #f58220;
 }
 
 .btnContainer{

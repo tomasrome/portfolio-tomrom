@@ -19,6 +19,9 @@ function Navbar() {
         <li>
           <a href="#tech">Tecnologias</a>
         </li>
+        <li>
+          <a href="#tech">Contacto</a>
+        </li>
       </ul>
       <ul className={styles.linksContainer}>
         <li>
@@ -44,6 +47,7 @@ function Navbar() {
           <a
             href="https://www.linkedin.com/in/tom%C3%A1s-alberto-romero-07b117212/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               className={styles.links}
@@ -57,7 +61,11 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="https://github.com/tomasrome" target="_blank">
+          <a
+            href="https://github.com/tomasrome"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className={styles.links}
