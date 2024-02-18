@@ -10,8 +10,8 @@
 .article{
     width: 70%;
     height: 800px;
-    border: 5px solid grey;
-    background-color: #181a1b;
+    border: 5px solid #088acc;
+    /*background-color: #181a1b;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,38 +35,52 @@
 }
 
 .cardProject{
-    width: 400px;
-    height: 550px;
+    width: 1200px;
+    height: 350px;
     border: 5px solid grey;
     display: flex;
     background-color: #181a1b;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: ease .4s;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 
 .cardProject:hover{
     filter: drop-shadow(0 0 2em #ffffff3d); 
-    scale: 1.005;
+    
 }
 
 .card{
-    width: 350px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.divImg{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
 }
 
 .cardImg{
     width: 350px;
     border-radius: 10%;
+    margin-bottom: 20px;
+    transition: scale ease .4s;
+}
+
+.cardImg:hover{
+    scale: 1.05;
 }
 
 .tomi{
@@ -83,17 +97,26 @@
     opacity: 1;
 }
 
+.divDes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 100px;
+    gap: 10px;
+}
+
 .language{
     display: flex;
 }
 
 .language li{
     font-size: 14px;
-    padding: 5px;
+    padding: 5px 10px   ;
     transition: ease .2s;
     cursor: default;
     background-color: #f583207f;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .language li:hover{

@@ -13,7 +13,6 @@ export default function Home() {
 
   return (
     <section className={styles.home}>
-      <img className={styles.foto} src={foto} alt="" />
       <h1 className={styles.tr} id="tr">
         Tomás Romero - <strong>Desarrollador Full Stack</strong>
       </h1>

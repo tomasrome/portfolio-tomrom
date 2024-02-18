@@ -13,55 +13,38 @@ export default function Projects() {
         <div className={styles.cardSection}>
           <div className={styles.cardProject}>
             <div className={styles.card}>
-              <img
-                className={styles.cardImg}
-                src={tomi}
-                alt="Portfolio Actor"
-              />
-              <img className={styles.tomi} src={hover} alt="Portfolio Actor" />
-              <ul className={styles.language}>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-              </ul>
-              <p>
-                Desarrolle un portfolio para destacar la versatilidad,
-                habilidades y experiencia de un talentoso actor. Desde la
-                presentación de su demo reel hasta una galería de fotos y una
-                sección de biografía, el portfolio ofrece una experiencia
-                inmersiva para los visitantes, permitiéndoles conocer más sobre
-                el actor y su trabajo en la industria del entretenimiento.
-              </p>
-              <div className={styles.btnContainer}>
-                <button>Web</button>
-                <button>Codigo</button>
+              <div className={styles.divImg}>
+                <img
+                  className={styles.cardImg}
+                  src={tomi}
+                  alt="Portfolio Actor"
+                />
+                {/*<img
+                  className={styles.tomi}
+                  src={hover}
+                  alt="Portfolio Actor"
+                />*/}
+                <div className={styles.btnContainer}>
+                  <button>Web</button>
+                  <button>Codigo</button>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className={styles.cardProject}>
-            <div className={styles.card}>
-              <img
-                className={styles.cardImg}
-                src={actor}
-                alt="Portfolio Actor"
-              />
-              <img className={styles.tomi} src={tomi} alt="Portfolio Actor" />
-              <ul className={styles.language}>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-              </ul>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consequatur eius dolore incidunt pariatur deserunt nostrum quam.
-                Voluptate sed fugit odio amet? Temporibus explicabo expedita,
-                asperiores sunt dolorum reprehenderit modi sed?
-              </p>
-              <div className={styles.btnContainer}>
-                <button>Web</button>
-                <button>Codigo</button>
+              <div className={styles.divDes}>
+                <ul className={styles.language}>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                </ul>
+                <p>
+                  Desarrolle un portfolio para destacar la versatilidad,
+                  habilidades y experiencia de un talentoso actor.
+                  <br /> Desde la presentación de su demo reel hasta una galería
+                  de fotos y una sección de biografía, el portfolio ofrece una
+                  experiencia inmersiva para los visitantes, permitiéndoles
+                  conocer más sobre el actor y su trabajo en la industria del
+                  entretenimiento.
+                </p>
               </div>
             </div>
           </div>
