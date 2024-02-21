@@ -5,11 +5,11 @@ export default function Home() {
   const sr = ScrollReveal({
     distance: "65px",
     duration: 2600,
-    delay: 250,
+    delay: 450,
     reset: true,
   });
 
-  sr.reveal("#tr", { delay: 200, origin: "top" });
+  sr.reveal("#tr", { delay: 200, origin: "left" });
 
   return (
     <section className={styles.home}>

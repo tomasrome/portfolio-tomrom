@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import CV from "../../assets/CV - Tomás Romero.pdf";
+import logo from "../../assets/trlogo.png";
 
 function Navbar() {
   return (
     <section className={styles.navbar}>
-      <div className={styles.logo}>
+      <div className={styles.logoDiv}>
+        <img src={logo} className={styles.logo} alt="" />
         <span>&#60;&#47;Tomás Romero / </span>
         <span className={styles.effect}>Full-Stack Developer</span>
       </div>

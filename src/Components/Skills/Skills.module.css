@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #181a1b;
+    background-color: #0f172a
 }
 
 .tech{
@@ -18,10 +18,10 @@
 }
 
 .skillsContainer{
-    height: 400px;
-    width: 70%;
-    background-color: #181a1b;
-    border: 5px solid rgb(61, 108, 178);
+    height: 500px;
+    width: 60%;
+    background-color: #0f172a;
+    border: 5px solid #2C3853;
     border-radius: 30px;
     display: flex;
     flex-direction: column;

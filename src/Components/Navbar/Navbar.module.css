@@ -15,7 +15,23 @@
 }
 
 .logo{
+    height: 45px;
+    cursor: pointer;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 1.5em;
+}
+
+.logo{
+    margin-left: 1.5em;
+}
+
+.logoDiv span{
+    font-size: 14px;
 }
 
 .effect{
@@ -65,11 +81,11 @@
     border-radius: 5px;
     margin-right: 20px;
     border: none;
+    transition: ease .2s;
 }
 
 .btnCv:hover{
     color: #242424;;
-    transition: ease .2s;
     background:rgba(255, 255, 255, 0.87);
 }
 
@@ -83,7 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .links{

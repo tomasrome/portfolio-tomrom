@@ -21,15 +21,16 @@
       font-style: italic;
       font-variation-settings:
         "wdth" 100; 
-    color: #242424;;
+    color: white;
   }
 
 .tr strong{
-    color: rgb(61, 108, 178);
+    color: rgba(61, 108, 178, 0.91);
 }
-  .parrafo{
+
+.parrafo{
     max-width: 1000px;
-    color: #242424;;
+    color: white;
     font-size: 16px;
     font-weight: 600;
     line-height: 30px;
